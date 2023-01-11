@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class MainTest {
 
-    @Testsa
+    @Test
     void findValidBracketsTest1() {
         assertEquals("2 - ()", Main.findValidBrackets("(()"));
     }
@@ -15,7 +15,7 @@ class MainTest {
     void findValidBracketsTest2() {
         assertEquals("4 - ()()", Main.findValidBrackets(")()())"));
     }
-asad
+
     @Test
     void findValidBracketsTest3() {
         assertEquals("6 - (()())", Main.findValidBrackets(")(()())"));
